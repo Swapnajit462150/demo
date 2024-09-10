@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head> <title> Create Account </title></head>
+    <body>
+        <h1> Create Account </h1>
+        <p> tabindex : it use to set sequence of cursor / pointer </p>
+        <p> value : it use to display the default value in input element </p>
+        <p> Readonly : readonly will make input element readonly, can not editable but we can pass to backend</p>
+        <p> disabled : will lock the element , can not edit also can not pass value to backend </p>
+        <form action="saveuser.php" method="get">
+            <div>
+                 Full Nmae : <input type="text" tabindex="1" value="Alex Kumar" disabled="disabled" name="fname"/>
+            </div>
+            <br/>
+            <div>
+                Mobile No : <input type="number" tabindex="0" value="4563784523" readonly="readonly" name="mobile"/>
+            </div>
+        
+        <br/>
+        <div>
+            e-mail Id : <input type="email" tabindex="3" value="abc@gmail.com" name="email"/>
+        </div>
+          
+        <br/>
+        <div>
+            password : <input type="password" tabindex="2" name="password"/>
+        </div>
+        <br/>
+        <div>
+            city : <select tabindex="4" >
+                        <option> choose </option>
+                        <option> Bangalore </option>
+                        <option> Mumbai </option>
+                   </select>
+        </div>
+        <br/>
+        <div>
+            city : <select tabindex="5" >
+                        <option> choose </option>
+                        <optgroup label="Karnataka">
+                        <option> city 1 </option>
+                        <option> city 2 </option>
+                        <option> city 3 </option>
+                    </optgroup>
+                    <optgroup label="Tamilnadu">
+                        <option> city 1 </option>
+                        <option> city 2 </option>
+                        <option> city 3 </option>
+                    </optgroup>
+                   </select>
+        </div>
+        <br/>
+        <button type="submit"> Submit</button>
+        <button type="reset"> Clear all</button>
+        
+        </form>
+    </body>
+</html>

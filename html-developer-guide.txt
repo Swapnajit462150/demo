@@ -1,0 +1,145 @@
+
+=>valid extension of html document  ?
+    .html -it is SEO / Digital marketing / Google search friendly 
+    .htm
+------------------
+input tag
+output tag 
+dependent tag -open and close separatee
+independent tag -tag only open 
+self close tag - tag open + close together 
+block level tag - it print statement in new line 
+inline tag - it print statement in same line 
+------------
+=><!DOCTYPE html>   ?
+-> it represent that current document is html document.
+-> it also inform to browser that html5 tags are being used.be ready to execute.
+
+=>structure of html document  ?
+      html start to end called document 
+         ->head
+            =>Digital marketing and analytics
+            =>Library section (css,javascript,other lib.....)
+        ->body
+            =>All the input and output activity....
+            Note - use the suitable tag according to contents.
+------------------------------------------------- 
+h1 to h6 - it is called heading tag.
+     use h1  minimum and maximum 1 time in each page.
+     h2 to h6 is optional.
+-------------------------------------------------
+p - it is use to display the text data in webpage.
+---------- use if text is upto 130 char-------------
+lable
+b / strong
+i / em
+u
+span
+-------------------------------------------------
+=> Type of list in html  ?
+      1. UL - unorder list 
+                type= "disc"
+                type= "sqqure"
+                type= "circle"
+                type= "none"
+
+      2. OL - order list 
+                type= "1"   -  1,2,3,4......
+                type="A"  - A,B,C,D......
+                type="a"  - a,b,c,d.....
+                type="I"  - Upper case Roman 1,2,3...
+                type= "I"  - lower case roman 1,2,3...
+
+      3. DL - definition list
+               dt - definition title (it use to corrct headline)
+               dd - definition details (it use to display details)
+----------------------------------------------------------------
+Table in html 
+   structure / syntex
+    1. table - get supported in angular and react 
+      =>table
+        =>caption 
+        =>(table row)
+          =>th(table heading)
+          =>td(table data)
+    2. table - get supported in angular and react
+         =>table
+           =>thead - it cover upper part of table
+                ->tr 
+                    ->th 
+           =>tbody - it cover middle part of table
+                ->tr 
+                    ->td
+           =>tfoot - it cover bottom part of table
+                ->tr 
+                    ->th
+=>property in table , tr, th, td
+      1. align - left , right , center (default is left)
+      2. valign - top , middle , bottom (default is middle)
+      3. border -
+      4. bordeeer color -
+      5. cellpadding - it apply space inside th ,td
+      6. cellspacing - it apply space outside of th ,td
+-> table1.html
+      7. colspan - it use to combine space of 2 or mre th,td.
+      8. rowspan - it use to combine space of 2 or more tr.
+-> table2.html 
+-> table3.html
+-> table4.html
+-----------------------------------
+How to  linnk the pages ?
+    <a href="next-file-name"> Text To Click </a>
+===============================================
+Input Elements In html
+ ->text
+ ->number
+ ->email
+ ->password
+ ->textarea - multiline input
+ ->file - to upload any type of file
+ ->date - for date picker 
+ ->checkbox
+ ->radio
+ ->select - to choose option
+ ->button 
+       ->submit - it submit the form data to action page
+       ->reset  - it clear all fields of current form
+       ->button - need javascript to make it funtional
+
+------property and values in input Elements-------
+ => placehoider - it is for input guidance.
+ => maxlength - it use to set input limit in ( text, email, password, textarea).
+ => size - it resize the width of ( text, email, password).
+ => id - it use to communicate with css and javascript.
+ => class - it use to communicate with css and javascript.
+ => name - it use to create a container in input in element that hold values given by user.
+ => required - it make input element as required to fill.
+ => tabindex : it use to set sequence of cursor / pointer </p>
+ =>value : it use to display the default value in input element </p>                                
+ => Readonly : readonly will make input element readonly, can not editable but we can pass to backend</p>
+ => disabled : will lock the element , can not edit also can not pass value to backend </p>
+form 
+    -> it is parent element of all the input tags.
+    action - it use to set path for backend url where form data should get submitted.
+    method - it define the type of communication between clint to server. it has following type
+        get - it use to send and receive data from clint to server but data will be fully visible. it is uncecure
+        post - it use to send and receive data from clint to server but data will be fully hidden. it is cecure
+        put - 
+        patch
+        delete
+        option
+------------------------------------------------------------------------
+Audio player
+Video player
+Youtube video using iframe
+-----------------------------------------------------------------------------
+1-inline
+2-internal css
+3-external css
+4-import css
+----------------------------------------------------------------------------
+
+
+
+
+      
